@@ -6,3 +6,4 @@ It uses phantomjs for taking screenshots, and pelican to generate the sites. It
 has 2 blog entries from the pelican-fresh-demo site, and a single Page entry to
 demonstrate how a page entry appears.
 
+The live demo's can be see at http://purewhite2010.github.io/pelican-theme-demos/
