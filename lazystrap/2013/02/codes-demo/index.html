@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Codes Demo - Pelican Theme Demo lazystrap</title>
+      <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../theme/css/lazystrap.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <meta name="description" content="" />
+    <link rel="canonical" href="../../.." />
+
+    <meta name="keywords" content=",Pelican,theme,programming" />
+</head>
+<body>
+    <div class="page">
+      <div class="header">
+        <a href="../../..">
+          <div class="navbar-brand brand"></div>
+        </a>
+        <div class="navbar-desc">
+          
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="post-date pull-right">17.02.2013</div>
+          <h2 class="post-header">Codes Demo</h2>
+          <div class="post-metadata pull-right">
+            <a href="../../../tag/pelican"><b>#</b>Pelican</a>
+            <a href="../../../tag/theme"><b>#</b>theme</a>
+            <a href="../../../tag/programming"><b>#</b>programming</a>
+          </div>
+          <div class="post-content">
+            <p>Hello World program sources from <a href="http://en.wikipedia.org/wiki/List_of_Hello_world_program_examples">Wikipedia: List of Hello world program examples</a>.</p>
+<h1><a href="http://en.wikipedia.org/wiki/Ada_(programming_language)">Ada</a></h1>
+<div class="highlight"><pre>with Ada.Text_IO;
+
+procedure Hello_World is
+ use Ada.Text_IO;
+begin
+    Put_Line(&quot;Hello, world!&quot;);
+end;
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/C_(programming_language)">C</a></h1>
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hello, world!</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a></h1>
+<div class="highlight"><pre><span class="cp">#include &lt;iostream&gt;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Hello, world!&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/HTML">HTML</a></h1>
+<div class="highlight"><pre><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+Hello, world!
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/Java_(programming_language)">Java</a></h1>
+<div class="highlight"><pre><span class="kd">public</span> <span class="kd">class</span> <span class="nc">HelloWorld</span> <span class="o">{</span>
+   <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+       <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Hello, world!&quot;</span><span class="o">);</span>
+   <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/JavaScript">JavaScript</a></h1>
+<p>To write to an HTML document:</p>
+<div class="highlight"><pre>document.write(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<p>To display an alert dialog box:</p>
+<div class="highlight"><pre>alert(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<p>To write to a console/debugging log:</p>
+<div class="highlight"><pre>console.log(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<p>Using Mozilla's Rhino:</p>
+<div class="highlight"><pre>print(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<p>Using Windows Script Host:</p>
+<div class="highlight"><pre>WScript.Echo(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<h1><a href="http://python.org/">Python</a></h1>
+<p>Python 2</p>
+<div class="highlight"><pre><span class="k">print</span> <span class="s">&quot;Hello, world!&quot;</span>
+</pre></div>
+
+
+<p>Python 3</p>
+<div class="highlight"><pre><span class="k">print</span><span class="p">(</span><span class="s">&quot;Hello, world!&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<h1><a href="http://www.ruby-lang.org/">Ruby</a></h1>
+<div class="highlight"><pre><span class="nb">puts</span> <span class="s2">&quot;Hello, world!&quot;</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/Bourne_shell">Shell</a></h1>
+<div class="highlight"><pre><span class="nb">echo</span> <span class="s2">&quot;Hello, world!&quot;</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/SQL">SQL</a></h1>
+<div class="highlight"><pre><span class="k">SELECT</span> <span class="ss">&quot;Hello, world!&quot;</span> <span class="k">FROM</span> <span class="n">DUMMY</span><span class="p">;</span> <span class="c1">-- DUMMY is a standard table in SAP HANA.</span>
+<span class="k">SELECT</span> <span class="ss">&quot;Hello, world!&quot;</span> <span class="k">FROM</span> <span class="n">DUAL</span><span class="p">;</span> <span class="c1">-- DUAL is a standard table in Oracle.</span>
+<span class="k">SELECT</span> <span class="ss">&quot;Hello, world!&quot;</span> <span class="c1">-- This will work in SQL Server.</span>
+</pre></div>
+          </div>
+          <div class="post-comments">
+            <h4>Comments</h4>
+<!-- place code of your favour comment system here -->          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-wrapper">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="footer">
+        	<a href="../../../about.html">About</a>
+          <a href="../../../archives">Archive</a>
+          <a href="../../../">RSS</a>
+  
+          <a href="#">You can add links in your config file</a>
+  
+          <a href="#">Another social link</a>
+        </div>
+        <div class="footer">
+          2014 &copy;  | Powered by <a href="http://getpelican.com">Pelican</a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script>
+      function validateForm(query)
+        {
+          return (query.length > 2);
+        }
+    </script>
+</body>
+</html>

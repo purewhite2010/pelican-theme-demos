@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Pelican Theme Demo basic - Articles by jsliang</title>
+        <meta charset="utf-8" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Pelican Theme Demo basic Full Atom Feed" />
+
+        <link rel="stylesheet" href="../theme/css/rdark.css" />
+	<link rel="stylesheet" type="text/css" href="../theme/css/main.css" />
+        <link href="../" type="application/atom+xml" rel="alternate" title="Pelican Theme Demo basic ATOM Feed" /><!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	
+<!-- Using MathJax, with the delimiters $ -->
+<!-- Conflict with pygments for the .mo and .mi -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  "HTML-CSS": {
+  styles: {
+  ".MathJax .mo, .MathJax .mi": {color: "black ! important"}}
+  },
+  tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']],processEscapes: true}
+  });
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="../">Pelican Theme Demo basic <strong></strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+            <li><a href="../about.html">About</a></li>
+        </ul></nav><!-- /#menu -->
+<section id="content">
+<h2>Articles by jsliang</h2>
+
+<ol id="post-list">
+        <li><article class="hentry">
+                <header> <h2 class="entry-title"><a href="../2013/02/codes-demo/" rel="bookmark" title="Permalink to Codes Demo">Codes Demo</a></h2> </header>
+                <footer class="post-info">
+                    <abbr class="published" title="2013-02-17T02:11:53+10:00"> Sun 17 February 2013 </abbr>
+                    <address class="vcard author">By
+                        <a class="url fn" href="../author/jsliang.html">jsliang</a>
+                    </address>
+                </footer><!-- /.post-info -->
+                <div class="entry-content"> <p>Hello World program sources from <a href="http://en.wikipedia.org/wiki/List_of_Hello_world_program_examples">Wikipedia: List of Hello world program examples</a>.</p>
+<h1><a href="http://en.wikipedia.org/wiki/Ada_(programming_language)">Ada</a></h1>
+<div class="highlight"><pre>with Ada.Text_IO;
+
+procedure Hello_World is
+ use Ada.Text_IO;
+begin
+    Put_Line(&quot;Hello, world!&quot;);
+end;
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/C_(programming_language)">C</a></h1>
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hello, world!</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a></h1>
+<div class="highlight"><pre><span class="cp">#include &lt;iostream&gt;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+<span class="kt">int ...</span></pre></div> </div><!-- /.entry-content -->
+        </article></li>
+        <li><article class="hentry">
+                <header> <h2 class="entry-title"><a href="../2013/02/theme-demo-post/" rel="bookmark" title="Permalink to Theme Demo Post">Theme Demo Post</a></h2> </header>
+                <footer class="post-info">
+                    <abbr class="published" title="2013-02-12T00:00:00+10:00"> Tue 12 February 2013 </abbr>
+                    <address class="vcard author">By
+                        <a class="url fn" href="../author/jsliang.html">jsliang</a>
+                    </address>
+                </footer><!-- /.post-info -->
+                <div class="entry-content"> <h2>Paragraph, Link, Bold, Italics</h2>
+<p><a href="http://www.lipsum.com/">Lorem ipsum</a> dolor sit amet, <em>consectetur adipisicing elit</em>, sed do <strong>eiusmod</strong> tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse ...</p> </div><!-- /.entry-content -->
+        </article></li>
+</ol><!-- /#posts-list -->
+<p class="paginator">
+    Page 1 / 1
+</p>
+</section><!-- /#content -->
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>

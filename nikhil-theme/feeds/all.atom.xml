@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Pelican Theme Demo nikhil-theme</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2013-02-17T02:11:53+10:00</updated><entry><title>Codes Demo</title><link href="/2013/02/codes-demo/" rel="alternate"></link><updated>2013-02-17T02:11:53+10:00</updated><author><name>jsliang</name></author><id>tag:,2013-02-17:2013/02/codes-demo/</id><summary type="html">&lt;p&gt;Hello World program sources from &lt;a href="http://en.wikipedia.org/wiki/List_of_Hello_world_program_examples"&gt;Wikipedia: List of Hello world program examples&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;&lt;a href="http://en.wikipedia.org/wiki/Ada_(programming_language)"&gt;Ada&lt;/a&gt;&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;with Ada.Text_IO;
+
+procedure Hello_World is
+ use Ada.Text_IO;
+begin
+    Put_Line(&amp;quot;Hello, world!&amp;quot;);
+end;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;a href="http://en.wikipedia.org/wiki/C_(programming_language)"&gt;C&lt;/a&gt;&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cp"&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/span&gt;
+
+&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;argc&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;char&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;argv&lt;/span&gt;&lt;span class="p"&gt;[])&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;printf&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hello, world!&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;a href="http://en.wikipedia.org/wiki/C%2B%2B"&gt;C++&lt;/a&gt;&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cp"&gt;#include &amp;lt;iostream&amp;gt;&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="k"&gt;namespace&lt;/span&gt; &lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;cout&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class="n"&gt;endl&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;a href="http://en.wikipedia.org/wiki/HTML"&gt;HTML&lt;/a&gt;&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cp"&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+Hello, world!
+&lt;span class="nt"&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;a href="http://en.wikipedia.org/wiki/Java_(programming_language)"&gt;Java&lt;/a&gt;&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;HelloWorld&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+   &lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kd"&gt;static&lt;/span&gt; &lt;span class="kt"&gt;void&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="o"&gt;[]&lt;/span&gt; &lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+       &lt;span class="n"&gt;System&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;out&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;println&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;);&lt;/span&gt;
+   &lt;span class="o"&gt;}&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;a href="http://en.wikipedia.org/wiki/JavaScript"&gt;JavaScript&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;To write to an HTML document:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;document.write(&amp;quot;Hello, world!&amp;quot;);
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;To display an alert dialog box:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;alert(&amp;quot;Hello, world!&amp;quot;);
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;To write to a console/debugging log:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;console.log(&amp;quot;Hello, world!&amp;quot;);
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Using Mozilla's Rhino:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;print(&amp;quot;Hello, world!&amp;quot;);
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Using Windows Script Host:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;WScript.Echo(&amp;quot;Hello, world!&amp;quot;);
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;a href="http://python.org/"&gt;Python&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Python 2&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Python 3&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;a href="http://www.ruby-lang.org/"&gt;Ruby&lt;/a&gt;&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nb"&gt;puts&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;a href="http://en.wikipedia.org/wiki/Bourne_shell"&gt;Shell&lt;/a&gt;&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;a href="http://en.wikipedia.org/wiki/SQL"&gt;SQL&lt;/a&gt;&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;SELECT&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt; &lt;span class="k"&gt;FROM&lt;/span&gt; &lt;span class="n"&gt;DUMMY&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="c1"&gt;-- DUMMY is a standard table in SAP HANA.&lt;/span&gt;
+&lt;span class="k"&gt;SELECT&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt; &lt;span class="k"&gt;FROM&lt;/span&gt; &lt;span class="n"&gt;DUAL&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="c1"&gt;-- DUAL is a standard table in Oracle.&lt;/span&gt;
+&lt;span class="k"&gt;SELECT&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt; &lt;span class="c1"&gt;-- This will work in SQL Server.&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="Pelican"></category><category term="theme"></category><category term="programming"></category></entry><entry><title>Theme Demo Post</title><link href="/2013/02/theme-demo-post/" rel="alternate"></link><updated>2013-02-12T00:00:00+10:00</updated><author><name>jsliang</name></author><id>tag:,2013-02-12:2013/02/theme-demo-post/</id><summary type="html">&lt;h2&gt;Paragraph, Link, Bold, Italics&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://www.lipsum.com/"&gt;Lorem ipsum&lt;/a&gt; dolor sit amet, &lt;em&gt;consectetur adipisicing elit&lt;/em&gt;, sed do &lt;strong&gt;eiusmod&lt;/strong&gt; tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;
+&lt;p&gt;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;h1&gt;h1 heading&lt;/h1&gt;
+&lt;h2&gt;h2 heading&lt;/h2&gt;
+&lt;h3&gt;h3 heading&lt;/h3&gt;
+&lt;h4&gt;h4 heading&lt;/h4&gt;
+&lt;h5&gt;h5 heading&lt;/h5&gt;
+&lt;h6&gt;h6 heading&lt;/h6&gt;
+&lt;h2&gt;Unordered List&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;apple&lt;/li&gt;
+&lt;li&gt;ball&lt;/li&gt;
+&lt;li&gt;cat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Ordered List&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;apple&lt;/li&gt;
+&lt;li&gt;ball&lt;/li&gt;
+&lt;li&gt;cat&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Quotes&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;
+&lt;p&gt;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;p&gt;-- "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero&lt;/p&gt;
+&lt;/blockquote&gt;</summary><category term="Pelican"></category><category term="theme"></category></entry></feed>

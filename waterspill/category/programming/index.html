@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  
+  <title>Pelican Theme Demo waterspill - Programming</title>
+<link href="../../theme/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="../../" type="application/atom+xml" rel="alternate" title="Pelican Theme Demo waterspill ATOM Feed" />
+  
+  <!--[if IE]>
+  <style type="text/css"> 
+  .twoColFixRtHdr #mainContent { zoom: 1; }
+  </style>
+  <![endif]-->
+
+</head>
+
+<body>
+
+<div id="container">
+
+  <div id="header">
+  <h1><a href="../..">Pelican Theme Demo waterspill</h1>
+  
+  </div><!-- end #header -->
+  
+  <div id="topMenu">
+  
+    <ul>
+    	<li><a href="../..">Home</a></li>
+        <li>&ndash;</li>
+        <li><a href="../../archives.html">Archives</a></li>
+        
+    </ul>
+  
+  </div><!-- end #topMenu -->
+
+  <div id="sidebar">
+	<h3>Pages</h3>
+	<ul>
+            <li><a href="../../about.html">About</a></li>
+	</ul>
+    <h3>Categories</h3>
+    <ul>
+		 <li class="active"><a href="../../category/programming">Programming</a></li>
+		 <li ><a href="../../category/web-design">Web Design</a></li>
+	</ul>
+	<li>
+		<h3>Blogroll</h3>
+		<ul>
+                    <li><a href="http://docs.notmyidea.org/alexis/pelican/">Pelican</a></li>
+                    <li><a href="http://python.org">Python.org</a></li>
+                    <li><a href="http://jinja.pocoo.org">Jinja2</a></li>
+                    <li><a href="#">You can modify those links in your config file</a></li>
+		</ul>
+	</li>
+        <li>
+                <h3>Social</h3>
+                <ul>
+                    <li><a href="../../" rel="alternate">Flux Atom</a></li>
+                    <li><a href="#">You can add links in your config file</a></li>
+                    <li><a href="#">Another social link</a></li>
+                </ul>
+        </li><!-- /.social -->
+<li>
+        <h3>Tags</h3>
+        <ul>
+                <li><a href="../../tag/pelican">Pelican</a></li>
+                <li><a href="../../tag/theme">theme</a></li>
+                <li><a href="../../tag/programming">programming</a></li>
+        </ul>
+</li>
+    
+  
+  </div><!-- end #sidebar -->
+
+  <div id="mainContent">
+  	
+ 
+        
+  	
+    <div class="blogItem">
+    
+      <h2><a href="../../2013/02/codes-demo/">Codes Demo</a></h2>
+      <h3>Le Sun 17 February 2013</h3>
+      
+      <p>Hello World program sources from <a href="http://en.wikipedia.org/wiki/List_of_Hello_world_program_examples">Wikipedia: List of Hello world program examples</a>.</p>
+<h1><a href="http://en.wikipedia.org/wiki/Ada_(programming_language)">Ada</a></h1>
+<div class="highlight"><pre>with Ada.Text_IO;
+
+procedure Hello_World is
+ use Ada.Text_IO;
+begin
+    Put_Line(&quot;Hello, world!&quot;);
+end;
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/C_(programming_language)">C</a></h1>
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hello, world!</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a></h1>
+<div class="highlight"><pre><span class="cp">#include &lt;iostream&gt;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Hello, world!&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/HTML">HTML</a></h1>
+<div class="highlight"><pre><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+Hello, world!
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/Java_(programming_language)">Java</a></h1>
+<div class="highlight"><pre><span class="kd">public</span> <span class="kd">class</span> <span class="nc">HelloWorld</span> <span class="o">{</span>
+   <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+       <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Hello, world!&quot;</span><span class="o">);</span>
+   <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/JavaScript">JavaScript</a></h1>
+<p>To write to an HTML document:</p>
+<div class="highlight"><pre>document.write(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<p>To display an alert dialog box:</p>
+<div class="highlight"><pre>alert(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<p>To write to a console/debugging log:</p>
+<div class="highlight"><pre>console.log(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<p>Using Mozilla's Rhino:</p>
+<div class="highlight"><pre>print(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<p>Using Windows Script Host:</p>
+<div class="highlight"><pre>WScript.Echo(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<h1><a href="http://python.org/">Python</a></h1>
+<p>Python 2</p>
+<div class="highlight"><pre><span class="k">print</span> <span class="s">&quot;Hello, world!&quot;</span>
+</pre></div>
+
+
+<p>Python 3</p>
+<div class="highlight"><pre><span class="k">print</span><span class="p">(</span><span class="s">&quot;Hello, world!&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<h1><a href="http://www.ruby-lang.org/">Ruby</a></h1>
+<div class="highlight"><pre><span class="nb">puts</span> <span class="s2">&quot;Hello, world!&quot;</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/Bourne_shell">Shell</a></h1>
+<div class="highlight"><pre><span class="nb">echo</span> <span class="s2">&quot;Hello, world!&quot;</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/SQL">SQL</a></h1>
+<div class="highlight"><pre><span class="k">SELECT</span> <span class="ss">&quot;Hello, world!&quot;</span> <span class="k">FROM</span> <span class="n">DUMMY</span><span class="p">;</span> <span class="c1">-- DUMMY is a standard table in SAP HANA.</span>
+<span class="k">SELECT</span> <span class="ss">&quot;Hello, world!&quot;</span> <span class="k">FROM</span> <span class="n">DUAL</span><span class="p">;</span> <span class="c1">-- DUAL is a standard table in Oracle.</span>
+<span class="k">SELECT</span> <span class="ss">&quot;Hello, world!&quot;</span> <span class="c1">-- This will work in SQL Server.</span>
+</pre></div>	
+
+      
+      <h3 class="blogMeta">Par <a href="#">jsliang</a>, Catégorie : <a href="../../category/programming">Programming</a></h3>
+	<h3 class="blogMeta">Tags : <span><a href="../../tag/pelican">Pelican</a> / </span>
+<span><a href="../../tag/theme">theme</a> / </span>
+<span><a href="../../tag/programming">programming</a> / </span>
+</h3>
+    
+    </div><!-- end #blogItem -->
+  
+  </div><!-- end #mainContent -->
+
+<div class="clearfloat"></div>
+
+  <div id="footer">
+  
+    <p><a href="http://css4free.com/" title="free CSS web site designs">Free CSS Gallery</a></p>
+    <p>Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
+  </div><!-- end #footer -->
+
+</div><!-- end #container -->
+</body>
+</html>

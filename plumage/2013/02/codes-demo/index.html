@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+
+    <title>  Codes Demo
+ | Pelican Theme Demo plumage</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content=""/>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.magnific-popup/0.9.9/magnific-popup.css"/>
+    <link rel="stylesheet" href="../../../theme/css/jquery.mglass.css"/>
+    <link rel="stylesheet" href="../../../theme/css/pygment-solarized-dark.css"/>
+    <link rel="stylesheet" href="../../../theme/css/style.css"/>
+
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+    <link href='//fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'/>
+    <link href='//fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'/>
+
+
+    <link rel="icon" href="../../../favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../../../favicon.ico" type="image/x-icon">
+
+    <!-- Feeds -->
+      <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Pelican Theme Demo plumage Full Atom Feed"/>
+      <link href="/feeds/programming.atom.xml" type="application/atom+xml" rel="alternate" title="Pelican Theme Demo plumage Categories Atom Feed"/>
+
+
+  </head>
+
+  <body>
+    <div class="container">
+
+      <header>
+        <div class="page-header">
+          <h1><a href="../../..">Pelican Theme Demo plumage</a> <small></small></h1>
+        </div>
+
+        <div class="navbar">
+          <div class="navbar-inner">
+            <a class="brand" href="../../.." title="">Pelican Theme Demo plumage</a>
+            <ul class="nav">
+                  <li ><a href="../../../about.html">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <section>
+
+        <div class="row">
+          <div class=" span9  ">
+  <h1>
+    <a href="../../../2013/02/codes-demo/" rel="bookmark" title="Permalink to Codes Demo">Codes Demo</a>
+  </h1>
+          </div>
+        </div>
+
+        <div class="row">
+
+
+          <div class=" span9 " id="content" role="main">
+  
+
+  <div>
+    <p>Hello World program sources from <a href="http://en.wikipedia.org/wiki/List_of_Hello_world_program_examples">Wikipedia: List of Hello world program examples</a>.</p>
+<h1><a href="http://en.wikipedia.org/wiki/Ada_(programming_language)">Ada</a></h1>
+<div class="highlight"><pre>with Ada.Text_IO;
+
+procedure Hello_World is
+ use Ada.Text_IO;
+begin
+    Put_Line(&quot;Hello, world!&quot;);
+end;
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/C_(programming_language)">C</a></h1>
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hello, world!</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a></h1>
+<div class="highlight"><pre><span class="cp">#include &lt;iostream&gt;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Hello, world!&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/HTML">HTML</a></h1>
+<div class="highlight"><pre><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+Hello, world!
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/Java_(programming_language)">Java</a></h1>
+<div class="highlight"><pre><span class="kd">public</span> <span class="kd">class</span> <span class="nc">HelloWorld</span> <span class="o">{</span>
+   <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+       <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Hello, world!&quot;</span><span class="o">);</span>
+   <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/JavaScript">JavaScript</a></h1>
+<p>To write to an HTML document:</p>
+<div class="highlight"><pre>document.write(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<p>To display an alert dialog box:</p>
+<div class="highlight"><pre>alert(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<p>To write to a console/debugging log:</p>
+<div class="highlight"><pre>console.log(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<p>Using Mozilla's Rhino:</p>
+<div class="highlight"><pre>print(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<p>Using Windows Script Host:</p>
+<div class="highlight"><pre>WScript.Echo(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<h1><a href="http://python.org/">Python</a></h1>
+<p>Python 2</p>
+<div class="highlight"><pre><span class="k">print</span> <span class="s">&quot;Hello, world!&quot;</span>
+</pre></div>
+
+
+<p>Python 3</p>
+<div class="highlight"><pre><span class="k">print</span><span class="p">(</span><span class="s">&quot;Hello, world!&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<h1><a href="http://www.ruby-lang.org/">Ruby</a></h1>
+<div class="highlight"><pre><span class="nb">puts</span> <span class="s2">&quot;Hello, world!&quot;</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/Bourne_shell">Shell</a></h1>
+<div class="highlight"><pre><span class="nb">echo</span> <span class="s2">&quot;Hello, world!&quot;</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/SQL">SQL</a></h1>
+<div class="highlight"><pre><span class="k">SELECT</span> <span class="ss">&quot;Hello, world!&quot;</span> <span class="k">FROM</span> <span class="n">DUMMY</span><span class="p">;</span> <span class="c1">-- DUMMY is a standard table in SAP HANA.</span>
+<span class="k">SELECT</span> <span class="ss">&quot;Hello, world!&quot;</span> <span class="k">FROM</span> <span class="n">DUAL</span><span class="p">;</span> <span class="c1">-- DUAL is a standard table in Oracle.</span>
+<span class="k">SELECT</span> <span class="ss">&quot;Hello, world!&quot;</span> <span class="c1">-- This will work in SQL Server.</span>
+</pre></div>
+  </div>
+
+
+
+          </div>
+
+            <div class="span3">
+  <div class="well">
+
+    <p><abbr class="fa fa-calendar" title="2013-02-17T02:11:53+10:00"> Sun 17 February 2013</abbr></p>
+
+      <p><address class="fa fa-user"> By <a href="../../../author/jsliang.html" rel="author">jsliang</a></address></p>
+
+
+    <hr/>
+
+      <p>
+              <a href="../../../category/programming" rel="tag tooltip" class="label label-info" data-placement="right" data-original-title="1 article in this category">Programming</a>
+            <a href="/tag/pelican" rel="tooltip" class="label" data-placement="right" data-original-title="2 articles with this tag">Pelican</a>
+            <a href="/tag/theme" rel="tooltip" class="label" data-placement="right" data-original-title="2 articles with this tag">theme</a>
+            <a href="/tag/programming" rel="tooltip" class="label" data-placement="right" data-original-title="1 article with this tag">programming</a>
+      </p>
+      <hr/>
+
+
+
+  </div>
+              
+            </div>
+
+        </div>
+      </section>
+
+    </div>
+
+    <!-- TODO: make footer sticky -->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row">
+
+            <div class="span2">
+                <h5>Social</h5>
+                <ul class="unstyled">
+                  <li>  <a href="#">
+    You can add links in your config file
+  </a></li>
+                  <li>  <a href="#">
+    Another social link
+  </a></li>
+                </ul>
+            </div>
+            <div class="span2">
+                <h5>Links</h5>
+                <ul class="unstyled">
+                  <li>  <a href="http://docs.notmyidea.org/alexis/pelican/">
+      <img src="http://g.etfv.co/http://docs.notmyidea.org?defaulticon=lightpng" width="16" height="16" class="icon" alt="docs.notmyidea.org icon"/>
+    Pelican
+  </a></li>
+                  <li>  <a href="http://python.org">
+      <img src="http://g.etfv.co/http://python.org?defaulticon=lightpng" width="16" height="16" class="icon" alt="python.org icon"/>
+    Python.org
+  </a></li>
+                  <li>  <a href="http://jinja.pocoo.org">
+      <img src="http://g.etfv.co/http://jinja.pocoo.org?defaulticon=lightpng" width="16" height="16" class="icon" alt="jinja.pocoo.org icon"/>
+    Jinja2
+  </a></li>
+                  <li>  <a href="#">
+    You can modify those links in your config file
+  </a></li>
+                </ul>
+            </div>
+
+          <div class="span2">
+            <h5>Browse content by</h5>
+            <ul class="fa-ul">
+
+                <li><a href="/feeds/programming.atom.xml"><i class="fa-li fa fa-rss"></i> Feed</a></li>
+            </ul>
+          </div>
+
+          <div class="span2 muted">
+            <h5>Copyright notice</h5>
+            <p>© Copyright 2013 jsliang.</p>
+          </div>
+
+          <div class="span2 muted">
+            <h5>Disclaimer</h5>
+              <p>All opinions expressed in this site are my own personal opinions and are not endorsed by, nor do they represent the opinions of my previous, current and future employers or any of its affiliates, partners or customers.</p>
+          </div>
+
+          <div class="span2">
+            <h5 class="pull-right"><a href="#" class="fa fa-arrow-up"> Back to top</a></h5>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row span12 muted text-center">
+          Site generated by <a href="http://getpelican.com"> Pelican</a>.<br/>
+          <a href="https://github.com/kdeldycke/plumage"> Plumage</a> theme by <a href="http://kevin.deldycke.com">Kevin Deldycke</a>.
+        </div>
+      </div>
+
+    </footer>
+
+    <script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery.magnific-popup/0.9.9/jquery.magnific-popup.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script src="../../../theme/js/jquery.mglass.js"></script>
+    <script src="../../../theme/js/application.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <title>Pelican Theme Demo pelican-mockingbird &middot; articles tagged "programming"</title>
+        <link rel="shortcut icon" href="../../favicon.ico" />
+<link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Pelican Theme Demo pelican-mockingbird Atom Feed" />
+
+        <link rel="stylesheet" href="../../theme/css/screen.css" type="text/css" />
+        <link rel="stylesheet" href="../../theme/css/pygments.css" type="text/css" />
+    </head>
+    <body>
+<div id="header">
+            <ul id="nav">
+                <li class="ephemeral selected"><a href="../../tag/programming/index.html">programming</a></li>
+                <li><a href="../..">Home</a></li>
+<li><a href="../../about.html">About</a></li>
+<li><a href="../../archives.html">Archives</a></li>
+            </ul>
+            <div class="header_box">
+                <h1><a href="../..">Pelican Theme Demo pelican-mockingbird</a></h1>
+            </div>
+        </div>
+        <div id="wrapper">
+            <div id="content">
+                <h4 class="date">Feb %e,  %G</h4>
+                <div class="post">
+<h2 class="title">
+                        <a href="../../2013/02/codes-demo/" rel="bookmark" title="Permanent Link to &quot;Codes Demo&quot;">Codes Demo</a>
+                    </h2>
+
+                    <p>Hello World program sources from <a href="http://en.wikipedia.org/wiki/List_of_Hello_world_program_examples">Wikipedia: List of Hello world program examples</a>.</p>
+<h1><a href="http://en.wikipedia.org/wiki/Ada_(programming_language)">Ada</a></h1>
+<div class="highlight"><pre>with Ada.Text_IO;
+
+procedure Hello_World is
+ use Ada.Text_IO;
+begin
+    Put_Line(&quot;Hello, world!&quot;);
+end;
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/C_(programming_language)">C</a></h1>
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hello, world!</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a></h1>
+<div class="highlight"><pre><span class="cp">#include &lt;iostream&gt;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Hello, world!&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/HTML">HTML</a></h1>
+<div class="highlight"><pre><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+Hello, world!
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/Java_(programming_language)">Java</a></h1>
+<div class="highlight"><pre><span class="kd">public</span> <span class="kd">class</span> <span class="nc">HelloWorld</span> <span class="o">{</span>
+   <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+       <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Hello, world!&quot;</span><span class="o">);</span>
+   <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/JavaScript">JavaScript</a></h1>
+<p>To write to an HTML document:</p>
+<div class="highlight"><pre>document.write(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<p>To display an alert dialog box:</p>
+<div class="highlight"><pre>alert(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<p>To write to a console/debugging log:</p>
+<div class="highlight"><pre>console.log(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<p>Using Mozilla's Rhino:</p>
+<div class="highlight"><pre>print(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<p>Using Windows Script Host:</p>
+<div class="highlight"><pre>WScript.Echo(&quot;Hello, world!&quot;);
+</pre></div>
+
+
+<h1><a href="http://python.org/">Python</a></h1>
+<p>Python 2</p>
+<div class="highlight"><pre><span class="k">print</span> <span class="s">&quot;Hello, world!&quot;</span>
+</pre></div>
+
+
+<p>Python 3</p>
+<div class="highlight"><pre><span class="k">print</span><span class="p">(</span><span class="s">&quot;Hello, world!&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<h1><a href="http://www.ruby-lang.org/">Ruby</a></h1>
+<div class="highlight"><pre><span class="nb">puts</span> <span class="s2">&quot;Hello, world!&quot;</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/Bourne_shell">Shell</a></h1>
+<div class="highlight"><pre><span class="nb">echo</span> <span class="s2">&quot;Hello, world!&quot;</span>
+</pre></div>
+
+
+<h1><a href="http://en.wikipedia.org/wiki/SQL">SQL</a></h1>
+<div class="highlight"><pre><span class="k">SELECT</span> <span class="ss">&quot;Hello, world!&quot;</span> <span class="k">FROM</span> <span class="n">DUMMY</span><span class="p">;</span> <span class="c1">-- DUMMY is a standard table in SAP HANA.</span>
+<span class="k">SELECT</span> <span class="ss">&quot;Hello, world!&quot;</span> <span class="k">FROM</span> <span class="n">DUAL</span><span class="p">;</span> <span class="c1">-- DUAL is a standard table in Oracle.</span>
+<span class="k">SELECT</span> <span class="ss">&quot;Hello, world!&quot;</span> <span class="c1">-- This will work in SQL Server.</span>
+</pre></div>
+
+                    <div class="clear"></div>
+                    <div class="info">
+<a href="../../2013/02/codes-demo/">posted at %l:11 %P</a>&nbsp;&middot;&nbsp;<a href="../../category/programming" rel="tag">Programming</a>
+                        <div class="tags">
+                            <a href="../../tag/pelican">Pelican</a>
+                            <a href="../../tag/theme">theme</a>
+                            <a href="../../tag/programming" class="selected">programming</a>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="clear"></div>
+                <div id="footer">
+                    <p>
+                    Mockingbird theme by <a href="http://nevanscott.com/">Nevan Scott</a>
+                    &middot;
+                    <a class="atom" href="/feeds/all.atom.xml">Feed</a>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </body>
+</html>
