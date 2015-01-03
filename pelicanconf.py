@@ -3,11 +3,28 @@
 
 AUTHOR = u'jsliang'
 SITENAME = u'Fresh: a responsive Pelican theme that uses HTML5'
-SITEURL = 'http://jsliang.com/pelican-fresh-demo/blog'
+SITEURL = ''
 
 FEED_DOMAIN = SITEURL
 
-TIMEZONE = 'Asia/Taipei'
+ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}/index.html'
+
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
+
+CATEGORY_URL = 'category/{slug}'
+CATEGORY_SAVE_AS = 'category/{slug}/index.html'
+
+TAG_URL = 'tag/{slug}'
+TAG_SAVE_AS = 'tag/{slug}/index.html'
+
+
+
+YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
+
+TIMEZONE = 'Australia/Brisbane'
 
 DEFAULT_LANG = u'en'
 
@@ -23,16 +40,14 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
-THEME = 'pelican-fresh'
-
-DISQUS_SITENAME = "jsliang"
+#THEME = 'pelican-fresh'
 
 GITHUB_URL = "http://github.com/jsliang/pelican-fresh-demo"
 
 HIDE_CATEGORIES_FROM_MENU = False
 
-MENUITEMS = [('Archives', '%s/archives.html' % SITEURL)]
+#MENUITEMS = [('Archives', '%s/archives.html' % SITEURL)]
 
-GOOGLE_ANALYTICS = "UA-37740364-1"
-GOOGLE_CUSTOM_SEARCH = "000728178517198415282:4k49jvwgnvy"
+#GOOGLE_ANALYTICS = "UA-37740364-1"
+#GOOGLE_CUSTOM_SEARCH = "000728178517198415282:4k49jvwgnvy"
 
