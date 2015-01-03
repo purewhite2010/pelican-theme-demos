@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = u'jsliang'
-SITENAME = u'Fresh: a responsive Pelican theme that uses HTML5'
+SITENAME = u'Pelican Theme Demo THEME_NAME'
 SITEURL = ''
 
 FEED_DOMAIN = SITEURL
